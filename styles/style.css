@@ -1,0 +1,72 @@
+/* LAYOUT */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+    padding: 2em;
+}
+
+header a {
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+header a:hover {
+    color: #aeaeae;
+}
+
+nav span {
+    padding: 0.2em;
+}
+
+main {
+    margin: 1em;
+    padding: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 0.05em;
+}
+
+div {
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+/* VISUALS */
+
+body {
+    font-family: "Libre Franklin", sans-serif;
+    color: #444444;
+    background-color: #fcfcfc;
+}
+
+header {
+    border: 0.1em #071330 solid;
+    background-color: #071330;
+    color: #fcfcfc;
+}
+
+footer {
+    color: #fcfcfc;
+    background-color: #071330;
+}
+
+a {
+    color: #2e8bc0;
+}
+
+a:hover {
+    color: #191970;
+}
+
+div {
+    border-bottom: gray solid 0.1em;
+}
