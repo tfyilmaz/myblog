@@ -3,6 +3,9 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 header {
     display: flex;
@@ -28,6 +31,7 @@ nav span {
 main {
     margin: 1em;
     padding: 1em;
+    flex: 1;
 }
 
 footer {
@@ -52,6 +56,13 @@ header {
     border: 0.1em #071330 solid;
     background-color: #071330;
     color: #fcfcfc;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        font-size: 0.7em;
+        text-align: center;
+    }
 }
 
 footer {
