@@ -60,9 +60,8 @@ header {
 
 @media screen and (max-width: 600px) {
     header {
-        font-size: 0.7em;
+        font-size: 0.6em;
         text-align: center;
-        white-space: pre-wrap;
     }
 }
 
